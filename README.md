@@ -2,6 +2,8 @@
 
 > Katex Accessibility Using Vue.js
 
+![](screenshot.png)
+
 ## Install
 
 ```
@@ -21,20 +23,23 @@ $ npm install vue-a11y-katex --save
 ```vue
 <template>
   <div class="app">
-    <katex-math :expression="expr"/>
+    <inline-math :expression="inlinemathExpr" />
+    <block-math :expression="blockmathExpr" />
   <div>
 </template>
 
 <script>
-import KatexMath from 'vue-a11y-katex'
+import { InlineMath, BlockMath } from 'vue-a11y-katex'
 
 export default {
   components: {
-    KatexMath
+    InlineMath,
+    BlockMath
   },
   data () {
     return {
-      expr: ''
+      inlinemathExpr: 'c = \\pm\\sqrt{a^2 + b^2}',
+      blockmathExpr: 'f(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi'
     }
   }
 }

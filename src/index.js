@@ -1,3 +1,4 @@
-import KatexMath from './KatexMath.vue'
+import InlineMath from './InlineMath.vue'
+import BlockMath from './BlockMath.vue'
 
-export default KatexMath
+export { InlineMath, BlockMath }
