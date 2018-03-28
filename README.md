@@ -1,2 +1,3 @@
 # vue-a11y-katex
-Katex Accessibility Using Vue.js
+
+> Katex Accessibility Using Vue.js
