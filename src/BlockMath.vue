@@ -1,5 +1,5 @@
 <template>
-  <span v-html="_expression"></span>
+  <div v-html="_expression"></div>
 </template>
 
 <script>
