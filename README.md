@@ -21,23 +21,20 @@ $ npm install vue-a11y-katex --save
 ```vue
 <template>
   <div class="app">
-    <inline-math :expression="inlinemathExpr"/>
-    <block-math :expression="blockmathExpr"/>
+    <katex-math :expression="expr"/>
   <div>
 </template>
 
 <script>
-import { InlineMath, BlockMath } from 'vue-a11y-katex'
+import KatexMath from 'vue-a11y-katex'
 
 export default {
   components: {
-    InlineMath,
-    BlockMath
+    KatexMath
   },
   data () {
     return {
-      inlinemathExpr: '',
-      blockmathExpr: ''
+      expr: ''
     }
   }
 }

@@ -1,9 +1,3 @@
-import InlineMath from './InlineMath.vue'
-import BlockMath from './BlockMath.vue'
-
-const KatexMath = {
-  InlineMath,
-  BlockMath
-}
+import KatexMath from './KatexMath.vue'
 
 export default KatexMath

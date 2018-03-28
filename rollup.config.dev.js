@@ -7,7 +7,7 @@ import commonjs from 'rollup-plugin-commonjs'
 export default {
   input: 'src/index.js',
   output: {
-    name: 'VueComponentName',
+    name: 'vue-a11y-katex',
     file: 'dist/vue-a11y-katex.js',
     format: 'umd',
     sourcemap: true

@@ -9,7 +9,7 @@ import { minify } from 'uglify-es'
 export default {
   input: 'src/index.js',
   output: {
-    name: 'VueComponentName',
+    name: 'vue-a11y-katex',
     file: 'dist/vue-a11y-katex.min.js',
     format: 'umd',
     sourcemap: false
