@@ -12,7 +12,7 @@ $ npm install vue-a11y-katex --save
 
 ## Usage
 
-You can [download Katex]() and host it on your server or use from CDN
+You can [download Katex](https://github.com/Khan/KaTeX) and host it on your server or use from CDN
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" integrity="sha384-TEMocfGvRuD1rIAacqrknm5BQZ7W7uWitoih+jMNFXQIbNl16bO8OZmylH/Vi/Ei" crossorigin="anonymous">
