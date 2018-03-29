@@ -27,14 +27,16 @@ You can [download Katex]() and host it on your server or use from CDN
 
 ### .vue files
 
-Import all components
+##### Import all components
 
-```vue
+```javascript
 import Vue from 'vue'
 import KatexMath from 'vue-a11y-katex'
 
 Vue.use(KatexMath)
 ```
+
+##### Import Normal
 
 ```vue
 <template>
