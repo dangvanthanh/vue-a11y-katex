@@ -12,6 +12,13 @@ $ npm install vue-a11y-katex --save
 
 ## Usage
 
+You can [download Katex]() and host it on your server or use from CDN
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" integrity="sha384-TEMocfGvRuD1rIAacqrknm5BQZ7W7uWitoih+jMNFXQIbNl16bO8OZmylH/Vi/Ei" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" integrity="sha384-jmxIlussZWB7qCuB+PgKG1uLjjxbVVIayPJwi6cG6Zb4YKq0JIw+OMnkkEC7kYCq" crossorigin="anonymous"></script>
+```
+
 ### CDN
 
 ```html
@@ -38,7 +45,8 @@ Vue.use(KatexMath)
 </template>
 
 <script>
-import { InlineMath, BlockMath } from 'vue-a11y-katex'
+import InlineMath from 'vue-a11y-katex/src/components/InlineMath.vue'
+import BlockMath from 'vue-a11y-katex/src/components/BlockMath.vue'
 
 export default {
   components: {
