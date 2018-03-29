@@ -1,10 +1,4 @@
-<template>
-  <span v-html="_expression"></span>
-</template>
-
-<script>
 export default {
-  name: 'InlineMath',
   props: {
     expression: {
       type: String,
@@ -21,4 +15,3 @@ export default {
     }
   }
 }
-</script>

@@ -1,6 +1,6 @@
 {
   "name": "vue-a11y-katex",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Katex Accessibility Using Vue.js",
   "main": "dist/vue-a11y-katex.js",
   "unpkg": "dist/vue-a11y-katex.min.js",

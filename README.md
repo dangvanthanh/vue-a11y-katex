@@ -1,4 +1,4 @@
-# vue-a11y-katex
+# Vue A11Y Katex
 
 > Katex Accessibility Using Vue.js
 
@@ -19,6 +19,15 @@ $ npm install vue-a11y-katex --save
 ```
 
 ### .vue files
+
+Import all components
+
+```vue
+import Vue from 'vue'
+import KatexMath from 'vue-a11y-katex'
+
+Vue.use(KatexMath)
+```
 
 ```vue
 <template>
