@@ -5,7 +5,7 @@ import { minify } from 'uglify-es'
 config.output = {
   name: 'vue-a11y-katex',
   file: 'dist/vue-a11y-katex.esm.js',
-  format: 'umd',
+  format: 'es',
   sourcemap: false
 }
 

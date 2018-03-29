@@ -1,9 +1,10 @@
 {
   "name": "vue-a11y-katex",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Katex Accessibility Using Vue.js",
-  "main": "src/index.js",
+  "main": "dist/vue-a11y-katex.js",
   "unpkg": "dist/vue-a11y-katex.min.js",
+  "module": "dist/vue-a11y-katex.esm.js",
   "scripts": {
     "build": "npm run build:dev && npm run build:prod && npm run build:esm",
     "build:dev": "rollup -c rollup.config.dev.js",
