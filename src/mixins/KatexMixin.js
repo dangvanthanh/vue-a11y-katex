@@ -2,16 +2,16 @@ export default {
   props: {
     expression: {
       type: String,
-      default: ''
+      default: ""
     }
   },
   computed: {
-    _expression () {
+    _expression() {
       try {
-	      return katex.renderToString(this.expression, { throwOnError: false })
+        return katex.renderToString(this.expression, { throwOnError: false });
       } catch (e) {
-	      return e
+        return e;
       }
     }
   }
-}
+};

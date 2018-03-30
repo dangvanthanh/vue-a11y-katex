@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import KatexMixin from '../mixins/KatexMixin'
+import KatexMixin from '../mixins/KatexMixin';
 
 export default {
   name: 'BlockMath',
-  mixins: [KatexMixin]
-}
+  mixins: [KatexMixin],
+};
 </script>
