@@ -7,6 +7,6 @@ import KatexMixin from '../mixins/KatexMixin';
 
 export default {
   name: 'InlineMath',
-  mixins: [KatexMixin],
-};
+  mixins: [KatexMixin]
+}
 </script>

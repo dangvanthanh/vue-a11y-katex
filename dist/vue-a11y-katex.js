@@ -26,15 +26,15 @@
 
   var InlineMath = {render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',{domProps:{"innerHTML":_vm._s(_vm._expression)}})},staticRenderFns: [],
     name: 'InlineMath',
-    mixins: [KatexMixin],
-  };
+    mixins: [KatexMixin]
+  }
 
   (function(){ if(typeof document !== 'undefined'){ var head=document.head||document.getElementsByTagName('head')[0], style=document.createElement('style'), css=""; style.type='text/css'; if (style.styleSheet){ style.styleSheet.cssText = css; } else { style.appendChild(document.createTextNode(css)); } head.appendChild(style); } })();
 
   var BlockMath = {render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{domProps:{"innerHTML":_vm._s(_vm._expression)}})},staticRenderFns: [],
     name: 'BlockMath',
-    mixins: [KatexMixin],
-  };
+    mixins: [KatexMixin]
+  }
 
   var components = {
     InlineMath: InlineMath,
