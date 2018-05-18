@@ -1,8 +1,10 @@
+import katex from 'katex';
+
 export default {
   props: {
     expression: {
       type: String,
-      default: ""
+      default: ''
     }
   },
   computed: {

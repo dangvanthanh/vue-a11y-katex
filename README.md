@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install vue-a11y-katex --save
+$ npm install @dangvanthanh/vue-katex --save
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ You can [download Katex](https://github.com/Khan/KaTeX) and host it on your serv
 ### CDN
 
 ```html
-<script src="https://unpkg.com/vue-a11y-katex"></script>
+<script src="https://unpkg.com/vue-katex"></script>
 ```
 
 ### .vue files
@@ -31,12 +31,12 @@ You can [download Katex](https://github.com/Khan/KaTeX) and host it on your serv
 
 ```javascript
 import Vue from 'vue'
-import KatexMath from 'vue-a11y-katex'
+import KatexMath from 'vue-katex'
 
 Vue.use(KatexMath)
 ```
 
-##### Import Normal
+##### Usage
 
 ```vue
 <template>
@@ -47,14 +47,7 @@ Vue.use(KatexMath)
 </template>
 
 <script>
-import InlineMath from 'vue-a11y-katex/src/components/InlineMath.vue'
-import BlockMath from 'vue-a11y-katex/src/components/BlockMath.vue'
-
 export default {
-  components: {
-    InlineMath,
-    BlockMath
-  },
   data () {
     return {
       inlinemathExpr: 'c = \\pm\\sqrt{a^2 + b^2}',

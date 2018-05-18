@@ -1,5 +1,5 @@
-import InlineMath from "./components/InlineMath.vue";
-import BlockMath from "./components/BlockMath.vue";
+import InlineMath from './components/InlineMath';
+import BlockMath from './components/BlockMath';
 
 const components = {
   InlineMath,
@@ -12,7 +12,7 @@ const install = function(Vue, opts = {}) {
   });
 };
 
-if (typeof window !== "undefined" && window.Vue) {
+if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 

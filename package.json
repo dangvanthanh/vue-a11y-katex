@@ -1,33 +1,31 @@
 {
-  "name": "vue-a11y-katex",
-  "version": "0.0.8",
-  "description": "Katex Accessibility Using Vue.js",
-  "main": "src/index.js",
-  "unpkg": "dist/vue-a11y-katex.min.js",
+  "name": "@dangvanthanh/vue-katex",
+  "version": "0.0.1",
+  "description": "Katex Using Vue.js",
+  "main": "dist/vue-katex.cjs.js",
+  "module": "dist/vue-katex.es.js",
+  "unpkg": "dist/vue-katex.js",
   "scripts": {
-    "build": "npm run build:dev && npm run build:prod",
-    "build:dev": "rollup -c rollup.config.dev.js",
-    "build:prod": "rollup -c rollup.config.prod.js"
+    "build": "bili src/index.js --format umd,cjs,es --exports named --module-name VueKatex",
+    "example": "poi example/index.js",
+    "public": "poi build example/index.js --out-dir public && surge"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dangvanthanh/vue-a11y-katex.git"
+    "url": "git+https://github.com/dangvanthanh/vue-katex.git"
   },
   "author": "Dang Van Thanh <chieuhue@gmail.com> (dangthanh.org)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dangvanthanh/vue-a11y-katex/issues"
+    "url": "https://github.com/dangvanthanh/vue-katex/issues"
   },
-  "homepage": "https://github.com/dangvanthanh/vue-a11y-katex#readme",
+  "homepage": "https://github.com/dangvanthanh/vue-katex#readme",
+  "peerDependencies": {
+    "katex": ">= 0"
+  },
   "devDependencies": {
-    "rollup": "^0.58.2",
-    "rollup-plugin-alias": "^1.4.0",
-    "rollup-plugin-buble": "^0.19.2",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-uglify": "^3.0.0",
-    "rollup-plugin-vue": "^3.0.0",
-    "uglify-es": "^3.3.9",
-    "vue-template-compiler": "^2.5.16"
+    "bili": "^3.1.2",
+    "katex": "^0.9.0",
+    "poi": "^10.1.8"
   }
 }
