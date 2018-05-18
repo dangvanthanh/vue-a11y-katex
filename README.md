@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install @dangvanthanh/vue-katex --save
+$ npm install vue-a11y-katex --save
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ You can [download Katex](https://github.com/Khan/KaTeX) and host it on your serv
 ### CDN
 
 ```html
-<script src="https://unpkg.com/vue-katex"></script>
+<script src="https://unpkg.com/vue-a11y-katex"></script>
 ```
 
 ### .vue files
@@ -31,7 +31,7 @@ You can [download Katex](https://github.com/Khan/KaTeX) and host it on your serv
 
 ```javascript
 import Vue from 'vue'
-import KatexMath from 'vue-katex'
+import KatexMath from 'vue-a11y-katex'
 
 Vue.use(KatexMath)
 ```

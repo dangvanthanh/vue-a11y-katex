@@ -1,10 +1,10 @@
 {
-  "name": "@dangvanthanh/vue-katex",
-  "version": "0.0.1",
+  "name": "vue-a11y-katex",
+  "version": "0.0.9",
   "description": "Katex Using Vue.js",
-  "main": "dist/vue-katex.cjs.js",
-  "module": "dist/vue-katex.es.js",
-  "unpkg": "dist/vue-katex.js",
+  "main": "dist/vue-a11y-katex.cjs.js",
+  "module": "dist/vue-a11y-katex.es.js",
+  "unpkg": "dist/vue-a11y-katex.js",
   "scripts": {
     "build": "bili src/index.js --format umd,cjs,es --exports named --module-name VueKatex",
     "example": "poi example/index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dangvanthanh/vue-katex.git"
+    "url": "git+https://github.com/dangvanthanh/vue-a11y-katex.git"
   },
   "author": "Dang Van Thanh <chieuhue@gmail.com> (dangthanh.org)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dangvanthanh/vue-katex/issues"
+    "url": "https://github.com/dangvanthanh/vue-a11y-katex/issues"
   },
-  "homepage": "https://github.com/dangvanthanh/vue-katex#readme",
+  "homepage": "https://github.com/dangvanthanh/vue-a11y-katex#readme",
   "peerDependencies": {
     "katex": ">= 0"
   },
