@@ -44,9 +44,39 @@ var BlockMath = {
   }
 };
 
+var ElementMath = {
+  name: 'ElementMath',
+  props: {
+    id: {
+      type: String,
+      default: String(Date.now())
+    },
+    expression: {
+      type: String,
+      default: ''
+    }
+  },
+  mounted: function mounted() {
+    try {
+      renderMathInElement(document.getElementById(this.id), {});
+    } catch (e) {}
+  },
+  render: function render(h) {
+    return h('div', {
+      attrs: {
+        id: this.id
+      },
+      domProps: {
+        innerHTML: this.expression
+      }
+    });
+  }
+};
+
 var components = {
   InlineMath: InlineMath,
-  BlockMath: BlockMath
+  BlockMath: BlockMath,
+  ElementMath: ElementMath
 };
 
 var install = function install(Vue) {

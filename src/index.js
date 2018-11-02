@@ -1,9 +1,11 @@
 import InlineMath from './components/InlineMath';
 import BlockMath from './components/BlockMath';
+import ElementMath from './components/ElementMath';
 
 const components = {
   InlineMath,
-  BlockMath
+  BlockMath,
+  ElementMath
 };
 
 const install = function(Vue, opts = {}) {
